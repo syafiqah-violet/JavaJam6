@@ -2,69 +2,118 @@
 <html lang ="en">
 
 <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="javajamlogo.jpg"> 
     <title>JavaJam Coffee House</title>
-    <meta charset="utf-8">    
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 
-<!-- Remove[<link rel="stylesheet" href="javajam.css">]-->    
+    <!-- Boostrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
 
 </head>
 
 
 <body>
-   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
- 
-    <div class="container" style="background-color: navajowhite; height: 110px;"><img src="javajamlogo.jpg" alt="This is the logo of JavaJam" align="left" width="140" height="110">
-    <h1 style="padding-left: 200px; padding-top: 30px;">JavaJam Coffee House</h1></div>
+    <header class="py-3 mb-3 border-bottom shadow">
+        <div class="container-fluid d-grid gap-3 justify-content-center " style="grid-template-columns: 1fr 2fr;">
+            <a href="javajamlogo.jpg" class="d-flex align-items-center col mb-lg-0 link-dark text-decoration-none">
+                <svg class="bi me-2 rounded-3" width="45" height="32">
+                    <image href="javajamlogo.jpg" x="0" y="0" height="32px" width="45px"/>
+                </svg>
+                <span class="fs-3">JavaJam Coffee House</span>
+            </a>
 
-<div class="container" style="background-color:lightsalmon;">
-    
-    <div class="form-row">
-    <div class="col-1">
-    <nav class="navbar"> 
-        <ul class="navbar-nav mr-auto"> 
-            <li class="nav-item active"><a class="nav-link" href="index.html">Home</a> </li>
-            <li><a class="nav-link" href="menu.html">Menu</a>  </li>
-            <li><a class="nav-link" href="music.html">Music</a> </li>
-            <li><a class="nav-link" href="jobs.html">Jobs</a></li>
-            <li><a class="nav-link" href="signUp.php">Sign Up</a></li>
-            <li><a class="nav-link" href="profile.php">Profile</a></li>
+            <nav class="navbar navbar-expand-lg">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link active rounded-5" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="menu.html">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="music.html">Music</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="jobs.html">Jobs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="signUp.php">Sign Up</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="profile.php">Profile</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
 
-        </ul>
-    </nav>
+            
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom shadow-sm">
+
+        </div>
     </div>
-    
 
-    <div class="col">
-    <main><br>
-        <img src="windingroad.jpg" alt="winding road through the woods" align="right" width="400" height="250">
-        <h2>Follow the Winding Road to JavaJam</h2>
+    <div class="container col-xxl-8 px-4 py-6">
+        <div class="row flex-lg-row-reverse align-items-center g-3 py-3">
+            <div class="col-10 col-sm-8 col-lg-6">
+                <img src="windingroad.jpg" class="d-block mx-lg-auto img-fluid rounded-5" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+            </div>
 
-        <p>
-            We're a little out of the way, but take a drive down Route 42 to JavaJam today! Indulge in our locally roasted free-trade coffee and home-made pastries. You'll feel right at home at JavaJam!
+            <div class="col-lg-6">
+                <h1 class="display-5 fw-bold lh-1 mb-3">Follow the Winding Road to JavaJam</h1>
+                <p class="lead">We're a little out of the way, but take a drive down Route 42 to JavaJam today! Indulge in our locally roasted free-trade coffee and home-made pastries. You'll feel right at home at JavaJam!</p>
+            
+                <h4>JavaJam Coffee House features:</h4>
+                <div class="lead">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="20" height="20">
+                        <path d="M88 0C74.7 0 64 10.7 64 24c0 38.9 23.4 59.4 39.1 73.1l1.1 1C120.5 112.3 128 119.9 128 136c0 13.3 10.7 24 24 24s24-10.7 24-24c0-38.9-23.4-59.4-39.1-73.1l-1.1-1C119.5 47.7 112 40.1 112 24c0-13.3-10.7-24-24-24zM32 192c-17.7 0-32 14.3-32 32V416c0 53 43 96 96 96H288c53 0 96-43 96-96h16c61.9 0 112-50.1 112-112s-50.1-112-112-112H352 32zm352 64h16c26.5 0 48 21.5 48 48s-21.5 48-48 48H384V256zM224 24c0-13.3-10.7-24-24-24s-24 10.7-24 24c0 38.9 23.4 59.4 39.1 73.1l1.1 1C232.5 112.3 240 119.9 240 136c0 13.3 10.7 24 24 24s24-10.7 24-24c0-38.9-23.4-59.4-39.1-73.1l-1.1-1C231.5 47.7 224 40.1 224 24z"/>
+                    </svg>
+                    <span>Specialty Coffee and Tea</span><br>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="20" height="20">
+                        <path d="M488.6 23.4c31.2 31.2 31.2 81.9 0 113.1l-352 352c-31.2 31.2-81.9 31.2-113.1 0s-31.2-81.9 0-113.1l352-352c31.2-31.2 81.9-31.2 113.1 0zM443.3 92.7c-6.2-6.2-16.4-6.2-22.6 0c-12.5 12.5-23.8 15.1-37.5 17.6l-2.5 .4c-13.8 2.5-31.6 5.6-48 22c-16.7 16.7-20.9 36-24.1 50.9l0 0v0l-.2 1c-3.4 15.6-6 26.4-15.7 36.1s-20.5 12.3-36.1 15.7l-1 .2c-14.9 3.2-34.2 7.4-50.9 24.1s-20.9 36-24.1 50.9l-.2 1c-3.4 15.6-6 26.4-15.7 36.1c-9.2 9.2-18 10.8-32.7 13.4l0 0-.9 .2c-15.6 2.8-34.9 6.9-54.4 26.4c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0c12.5-12.5 23.8-15.1 37.5-17.6l2.5-.4c13.8-2.5 31.6-5.6 48-22c16.7-16.7 20.9-36 24.1-50.9l.2-1c3.4-15.6 6-26.4 15.7-36.1s20.5-12.3 36.1-15.7l1-.2c14.9-3.2 34.2-7.4 50.9-24.1s20.9-36 24.1-50.9l.2-1c3.4-15.6 6-26.4 15.7-36.1c9.2-9.2 18-10.8 32.7-13.4l.9-.2c15.6-2.8 34.9-6.9 54.4-26.4c6.2-6.2 6.2-16.4 0-22.6zM191.2 479.2l288-288L495 207c10.9 10.9 17 25.6 17 41s-6.1 30.1-17 41L289 495c-10.9 10.9-25.6 17-41 17s-30.1-6.1-41-17l-15.8-15.8zM17 305C6.1 294.1 0 279.4 0 264s6.1-30.1 17-41L223 17C233.9 6.1 248.6 0 264 0s30.1 6.1 41 17l15.8 15.8-288 288L17 305z"/>
+                    </svg>
+                    <span>Bagels, Muffins and Organic Snacks</span><br>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="20" height="20">
+                        <path d="M499.1 6.3c8.1 6 12.9 15.6 12.9 25.7v72V368c0 44.2-43 80-96 80s-96-35.8-96-80s43-80 96-80c11.2 0 22 1.6 32 4.6V147L192 223.8V432c0 44.2-43 80-96 80s-96-35.8-96-80s43-80 96-80c11.2 0 22 1.6 32 4.6V200 128c0-14.1 9.3-26.6 22.8-30.7l320-96c9.7-2.9 20.2-1.1 28.3 5z"/>
+                    </svg>
+                    <span>Music and Poetry Readings</span><br>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" width="20" height="20">
+                        <path d="M96 96V256c0 53 43 96 96 96s96-43 96-96H208c-8.8 0-16-7.2-16-16s7.2-16 16-16h80V192H208c-8.8 0-16-7.2-16-16s7.2-16 16-16h80V128H208c-8.8 0-16-7.2-16-16s7.2-16 16-16h80c0-53-43-96-96-96S96 43 96 96zM320 240v16c0 70.7-57.3 128-128 128s-128-57.3-128-128V216c0-13.3-10.7-24-24-24s-24 10.7-24 24v40c0 89.1 66.2 162.7 152 174.4V464H120c-13.3 0-24 10.7-24 24s10.7 24 24 24h72 72c13.3 0 24-10.7 24-24s-10.7-24-24-24H216V430.4c85.8-11.7 152-85.3 152-174.4V216c0-13.3-10.7-24-24-24s-24 10.7-24 24v24z"/>
+                    </svg>
+                    <span>Open Mic Night</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom shadow-sm">
+
+        </div>
+    </div>
+
+    <footer class="py-3 my border-bottom shadow-sm">
+        <p class="text-center text-muted">Copyright &copy; 2021 JavaJam Coffee House<br>
+            <a class="text-decoration-none" href="index.html">yourfirstname@yourlastname.com</a>
         </p>
-
-        <h3>JavaJam Coffee House features:</h3>
-        <ul >
-            <li>Specialty Coffee and Tea</li>
-            <li>Bagels, Muffins and Organic Snacks</li>
-            <li>Music and Poetry Readings</li>
-            <li>Open Mic Night</li>
-        </ul>
-    </main>
-    </div>
-
-    </div>
-</div>
-
-    <footer class="container text-center font-italic" style="background-color: navajowhite;">       
-        <p><small><i>
-            Copyright &copy; 2021 JavaJam Coffee House <br>
-            <a href="jobs.html">yourfirstname@yourlastname.com</a>
-        </i></small></p>
     </footer>
 
 </body>

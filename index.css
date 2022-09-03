@@ -1,0 +1,15 @@
+header, footer {
+    background-color: navajowhite; 
+}
+
+.nav-pills > li > .nav-link {
+    color: red;
+}
+
+.nav-pills > li > a.active {
+    background-color:coral !important;
+}
+
+footer > p > a {
+    color: red;
+}
