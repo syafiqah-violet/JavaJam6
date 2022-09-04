@@ -1,9 +1,23 @@
+body {
+    font-family: 'Josefin Sans', serif;
+}
+  
 header, footer {
+    background-color: navajowhite; 
+}
+
+.feature:hover {
     background-color: navajowhite; 
 }
 
 .nav-pills > li > .nav-link {
     color: red;
+}
+
+.nav-pills > li > .nav-link:hover {
+    color: white;
+    background-color:coral !important;
+    border-radius: 30px;
 }
 
 .nav-pills > li > a.active {
