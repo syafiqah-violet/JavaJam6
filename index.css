@@ -6,6 +6,17 @@ header, footer {
     background-color: navajowhite; 
 }
 
+.container-xxl:hover > .row > div.new-label {
+    display: none;
+}
+
+.container-xxl:hover > .row > div.new-label:after {
+    color: white;
+    background-color:coral !important;
+    content: 'January';
+}
+
+
 .feature:hover {
     background-color: navajowhite; 
 }
