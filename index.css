@@ -6,21 +6,42 @@ header, footer {
     background-color: navajowhite; 
 }
 
-.container-xxl:hover > .row > div.new-label {
+/* item */
+.item {
+    color: white;
+    background-color:coral;
+}
+
+.item:hover p.new-label span{
     display: none;
 }
 
-.container-xxl:hover > .row > div.new-label:after {
-    color: white;
-    background-color:coral !important;
+.item:hover p.new-label:after{
+    font-size: 70px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     content: 'January';
 }
 
+.item:hover p.new-label2 span{
+    display: none;
+}
 
+.item:hover p.new-label2:after{
+    font-size: 70px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    content: 'February';
+}
+
+/* feature */
 .feature:hover {
     background-color: navajowhite; 
 }
 
+/* navigation  */
 .nav-pills > li > .nav-link {
     color: red;
 }
