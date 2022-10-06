@@ -3,6 +3,7 @@ JAVAJAM
 This is a small project HTML project where I can inprove my HTML and CSS using bootstrap. 
 
 The logo used and coffee shop name:
+
 ![image](https://user-images.githubusercontent.com/65660410/194367635-9af5f5d2-689a-473f-bff6-b5fdef4ac6a0.png)
 
 Color theme for the website:
