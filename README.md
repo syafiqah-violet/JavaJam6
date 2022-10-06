@@ -1,4 +1,4 @@
-JavaJam version6
+JAVAJAM
 
 This is a small project HTML project where I can inprove my HTML and CSS using bootstrap. 
 
