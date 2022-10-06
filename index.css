@@ -50,6 +50,7 @@ header, footer {
     color: white;
     background-color:coral !important;
     border-radius: 30px;
+    font-size: 130%;
 }
 
 .nav-pills > li > a.active {
