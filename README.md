@@ -1,6 +1,6 @@
 JAVAJAM
 
-This is a small project HTML project where I can inprove my HTML and CSS using bootstrap. 
+This is a small HTML project where I can inprove my HTML and CSS using bootstrap. 
 
 The logo used and coffee shop name:
 
